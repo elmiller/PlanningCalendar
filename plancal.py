@@ -12,9 +12,9 @@ if len(sys.argv) > 2:
 # If no arguments, read input with prompt
 else:
 	# Get user input for year
-	enteryear = input("Enter year: ")
+	enteryear = input("Enter year (yyyy): ")
 	# Get user input for month
-	entermonth = input("Enter month number: ")
+	entermonth = input("Enter month number (mm): ")
 
 # Validate input for year
 if enteryear in range(2012,2021):
@@ -23,7 +23,7 @@ else:
 	print "Error: enter a year in the range 2012-2020."
 	sys.exit()
 
-# Validate input
+# Validate input for month
 if entermonth in range(1,13):
 	thismonth = entermonth
 else:
