@@ -1,7 +1,7 @@
-Calendar Creator
+Planning Calendar
 =========
 
-Python script to create a plain text, linear calendar for lesson planning.
+Python script to create a weekday, linear calendar for lesson planning.
 
 ## About
 
@@ -11,11 +11,9 @@ Since I was working on my phone, I used [Pythonista](http://omz-software.com/pyt
 
 ## Usage
 
-Run the script from the command line with `./calcreate.py`.
-
-The script will ask for the month and year:  
-`Enter month number: 9`  
-`Enter year: 2013`
+Run the script from the command line with `plancal yyyy mm`. If you leave off the arguments, the script will ask for the month and year:  
+`Enter year (yyyy): 2013`  
+`Enter month number (mm): 9`
 
 The script will then list the weekdays for the specified month in the following format:
 
