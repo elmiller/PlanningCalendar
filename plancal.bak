@@ -4,20 +4,6 @@ import datetime
 from datetime import timedelta
 import sys
 
-# Create lists for each day
-Monday = ['LA: \n1. Update planners\n2. Journal entry\n3. Reading time', 'EH: ']
-Tuesday = ['LA: ', 'EH: ']
-Wednesday = ['HR: ', 'LA: ', 'EH: ']
-Thursday = ['LA: ', 'EH: ']
-Friday = ['LA: ', 'EH: ']
-
-# Create function that loops through the lists and prints the teachers and events for the day.
-def printSchedule(day):
-    for event in day:
-        print event
-    # Include a blank line at the end of the day
-    print
-
 # Test if arguments were set at the command line
 if len(sys.argv) > 2:
 	enteryear = int(sys.argv[1])
@@ -56,15 +42,5 @@ for x in range(0,31):
 	# Include only weekdays
 	if eachday.weekday() in range(0,5):
 		print eachday.strftime("%A, %B %d, %Y")
-        # Sets value of theday to a day of the week (i.e. "Monday")
-        theday = eachday.strftime("%A")
-        if theday == "Monday":
-            printSchedule(Monday)
-        elif theday == "Tuesday":
-            printSchedule(Tuesday)
-        elif theday == "Wednesday":
-            printSchedule(Wednesday)
-        elif theday == "Thursday":
-            printSchedule(Thursday)
-        elif theday == "Friday":
-            printSchedule(Friday)
+		print "LA"
+		print "EH\n"
