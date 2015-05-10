@@ -17,22 +17,28 @@ Run the script from the command line with `plancal yyyy mm`. If you leave off th
 
 The script will then list the weekdays for the specified month in the following format:
 
-Monday, September 02, 2013  
-LA  
-EH  
+May 2015
 
-Tuesday, September 03, 2013  
-LA  
-EH  
+Week of Monday, May 4, 2015
 
-Wednesday, September 04, 2013  
-LA  
-EH  
+Monday, May 4, 2015
+LA
+EH
 
-Thursday, September 05, 2013  
-LA  
-EH  
+Tuesday, May 5, 2015
+LA
+EH
+HR
 
-Friday, September 06, 2013  
-LA  
-EH  
+Wednesday, May 6, 2015
+LA
+EH
+
+Thursday, May 7, 2015
+LA
+EH
+HR
+
+Friday, May 8, 2015
+LA
+EH
