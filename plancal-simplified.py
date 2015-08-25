@@ -45,7 +45,7 @@ for x in range(1,daysinmonth):
 
 	# Print "Week of..."
 	if eachday.weekday() in range(1):
-		weekline = eachday.strftime("Week of %A, %B %e, %Y")
+		weekline = eachday.strftime("\nWeek of %A, %B %e, %Y")
 		# Remove repeated spaces date is single digit number
 		print re.sub(r"\s\s+", " ",weekline)
 
