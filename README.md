@@ -22,23 +22,23 @@ May 2015
 Week of Monday, May 4, 2015
 
 Monday, May 4, 2015
-LA
-EH
+LA  
+EH  
 
 Tuesday, May 5, 2015
-LA
-EH
-HR
+LA  
+EH  
+HR  
 
 Wednesday, May 6, 2015
-LA
-EH
+LA  
+EH  
 
 Thursday, May 7, 2015
-LA
-EH
-HR
+LA  
+EH  
+HR  
 
 Friday, May 8, 2015
-LA
-EH
+LA  
+EH  
