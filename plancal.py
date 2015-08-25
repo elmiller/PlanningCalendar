@@ -4,11 +4,11 @@ import datetime, calendar, sys, re
 from datetime import timedelta
 
 # Create lists for each day
-Monday = ['LA', 'EH']
-Tuesday = ['LA', 'EH', 'HR']
-Wednesday = ['LA', 'EH']
-Thursday = ['LA', 'EH', 'HR']
-Friday = ['LA', 'EH']
+Monday = ['EH']
+Tuesday = ['EH', 'HR']
+Wednesday = ['EH']
+Thursday = ['EH', 'HR']
+Friday = ['EH']
 
 # Create function that loops through the lists and prints the teachers and events for the day.
 def printSchedule(day):
