@@ -1,5 +1,5 @@
 Planning Calendar
-=========
+================
 
 Python script to create a weekday, linear calendar for lesson planning.
 
